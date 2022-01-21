@@ -116,6 +116,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     color: #27282A;
+    align-items: center;
 }
 
 .rabLeft p {
@@ -143,7 +144,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     height: 50vh;
-    align-items: start;
+    align-items: center;
     margin-bottom: 5%;
 }
 
