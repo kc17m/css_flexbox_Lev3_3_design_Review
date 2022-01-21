@@ -87,7 +87,7 @@ header ul {
 }
 
 .naviRight{
-    border: 1.5px solid #9FA2A7;
+    border: 2px solid #9FA2A7;
     padding: 1% 5%;
   
 }
@@ -95,7 +95,7 @@ header ul {
 header .naviRight:hover {
     color: #fff;
     background: #9FA2A7;
-    border: 1.5px solid #fff;
+    border: 2px solid #fff;
 }
 
 /* main  */
