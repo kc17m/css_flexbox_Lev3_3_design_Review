@@ -48,7 +48,11 @@ Logo:Design Critique (Font: TiemposHeadline-Semibold)
 get started (Font: Graphik-Medium) */
 
 header ul, h1 {
-    font-family: Graphik-Regular;;
+    font-family: Graphik-Regular;
+   }
+
+   h2 {
+       font-size: 2rem;
    }
 
 .naviMiddle, h2 {
@@ -61,6 +65,7 @@ header ul, h1 {
 
 p, ol {
     color: #9FA2A7;
+    font-size: 1.2rem;
 }
 
 
@@ -78,7 +83,7 @@ header ul {
 }
 
 .naviMiddle {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .naviRight{
@@ -103,6 +108,7 @@ header .naviRight:hover {
 h1 {
     text-align: center;
     margin: 5% 0 10% 0;
+    font-size: 2rem;
 }
 
 .txtRabbit {
@@ -159,6 +165,7 @@ h1 {
 
 h3 {
     margin: 4% 0;
+    font-size: 1.5rem;
 
 }
 
@@ -173,7 +180,7 @@ h3 {
 
 .yellowHair {
     background: #e9ecf1 ;
-    height: 30vh;
+    
     padding: 3% 0;
 }
 
@@ -211,10 +218,10 @@ ol {
 
 
 .imgSkater  {
-    width: 48%;
+    width: 61%;
     position: absolute;
-    bottom: -17%;
-    right: -2%;
+    bottom: -2%;
+    right: -23%;
     z-index: 3;
    
     
