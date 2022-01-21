@@ -1,0 +1,277 @@
+/* Farben: #2B2C2E /  #9FA2A7 / #27282A /  #848689 / #3D3E41 / #fff
+Fonts: Graphik, TiemposHeadline, Theinhardt   */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Graphik-Regular;
+    src: url(../fonts/Graphik-Regular.woff);
+}
+
+@font-face {
+    font-family: Graphik-Medium;
+    src: url(../fonts/Graphik-Medium.ttf);
+}
+
+@font-face {
+    font-family: TiemposHeadline;
+    src: url(../fonts/TiemposHeadline-Semibold.woff);
+}
+
+@font-face {
+    font-family: Teinhardt-lt;
+    src: url(../fonts/Theinhardt-Lt.woff);
+}
+
+header, main, footer {
+    width: 90%;
+    margin: 1% auto;
+    font-family: Graphik-Medium;
+    color: #27282A;
+}
+
+a {
+    color: #2B2C2E;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+/* header  */
+/* Nav: Home/About/Contact/#Hacks (Font: Graphik-Regular)
+Logo:Design Critique (Font: TiemposHeadline-Semibold)
+get started (Font: Graphik-Medium) */
+
+header ul, h1 {
+    font-family: Graphik-Regular;;
+   }
+
+.naviMiddle, h2 {
+    font-family: TiemposHeadline;
+}
+
+.thein, p, ol {
+    font-family: Teinhardt-lt;    
+}
+
+p, ol {
+    color: #9FA2A7;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2% 0;
+}
+
+header ul {
+     display: flex; 
+     gap: 5%;  
+}
+
+.naviMiddle {
+    font-size: 1.5rem;
+}
+
+.naviRight{
+    border: 2px solid #9FA2A7;
+    padding: 1% 5%;
+}
+
+header .naviRight:hover {
+    color: #fff;
+    background: #9FA2A7;
+    border: none;
+}
+
+/* main  */
+
+/* sectionRabbit */
+.bgRabbit {
+    background: url(../img/home_hero.png) no-repeat center/cover;
+    height: 50vh;
+}
+
+h1 {
+    text-align: center;
+    margin: 5% 0 10% 0;
+}
+
+.txtRabbit {
+    display: flex;
+    justify-content: space-between;
+    color: #27282A;
+}
+
+.rabLeft p {
+    width: 78%;
+    margin: 5% 5% 5% 0;    
+    font-weight: 800;
+    line-height: 1.5rem;
+    color: #27282A;
+
+}
+
+.rabRight {
+    margin: 5% 5% 5% 0;
+}
+
+.cost {
+    color: #27282A;
+    font-size: 3rem;
+}
+
+
+/* section PinkRabbit */
+
+.pinkRab, .yellowHair {
+    display: flex;
+    justify-content: space-between;
+    height: 50vh;
+    align-items: start;
+    margin-bottom: 5%;
+}
+
+.bgPinkRabbit {
+    background: url(../img/home_deliverables.png) no-repeat center/contain;
+    height: 100%;
+    width: 50%;
+    margin: 0 2%;
+}
+
+.txtPinkRabbit, .txtYellowHair  {
+    width: 50%;
+    margin: 0 3%;
+    
+}
+
+.txtPinkRabbit h2 {
+    margin: 0 0 10% 0;
+}
+
+h3 {
+    margin: 4% 0;
+
+}
+
+/* section yellowHair */
+
+.bgYellowHair {
+    background: url(../img/home_how_it_works.png) no-repeat center/contain;
+    height: 100%;
+    width: 50%;
+    margin: 0 2%;
+}
+
+.yellowHair {
+    background: #e9ecf1 ;
+    height: 30vh;
+    padding: 3% 0;
+}
+
+.yellowHair h2 {
+    margin: 1% 0 2% 0;
+}
+
+ol {
+    padding: 1% 0 2% 7%;
+}
+
+/* section txt Center */
+.txtCenter {
+    margin: 10% 0 ;
+    text-align: center;
+}
+
+.txtCenter h2 {
+    margin: 3% 0 ;
+}
+
+.txtCenter p {
+    width: 50%;
+    margin: 2% auto;
+}
+
+/* section skater 28 */
+
+
+.img28 {
+    margin: 2% 0% 0 -16%;
+    position: relative;
+}
+
+
+
+.imgSkater  {
+    width: 48%;
+    position: absolute;
+    bottom: -17%;
+    right: -2%;
+    z-index: 3;
+   
+    
+}
+
+ .imgSkater img {
+    width: 60%;
+
+ }
+
+ .bgSkater {
+    margin: 1% 50% 0 16%;
+      
+     
+ }
+
+ /* footer  */
+
+ footer {
+     text-align: center;
+     
+ }
+
+ footer h2 {
+     margin: 10% 0 4%;
+ }
+
+ footer img {
+     width: 4%;
+    margin: 0 2%;
+ }
+
+.bgQuest {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
